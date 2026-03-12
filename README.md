@@ -10,10 +10,41 @@ To keep the repository lightweight, only the notebooks and source scripts are in
 
 The repository is organized as follows:
 
+repository/
+│
+├── notebooks/  
+├── src/
+└── README.md
+
 - `notebooks` – Jupyter notebooks used for video preprocessing, DeepLabCut analysis, and signal processing.
 - `src` – Python scripts containing helper functions for data processing and analysis.
 
-Raw videos, extracted frames, and intermediate DeepLabCut outputs are not included in the repository due to GitHub file size limitations.
+The repository intentionally contains only notebooks and source scripts. Raw videos and large intermediate files are not included due to GitHub size limitations.  
+
+## Expected Directory Structure
+
+Before running the notebooks, the project directory should follow the structure below:
+DLC_projects4/
+│
+├── notebooks/
+│   Jupyter notebooks used for preprocessing, DeepLabCut analysis,
+│   and signal processing.
+│
+├── src/
+│   Python helper scripts used by the notebooks.
+│
+├── videos/
+│   Raw experimental videos used as input for the analysis.
+│   These files are not included in the repository.
+│
+├── results/
+│   Generated outputs such as processed data and figures.
+│
+└── README.md
+
+The notebooks assume this directory structure when loading input videos and saving results.
+
+Users should place the experimental videos inside the `videos` directory before running the analysis notebooks. Processed data and figures generated during execution will be stored in the `results` directory.
 
 ## Method Overview
 
