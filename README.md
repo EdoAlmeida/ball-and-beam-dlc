@@ -151,15 +151,16 @@ Pontifical Catholic University of Paraná (PUCPR)
 ## Citation
 If you use this dataset or the loading utilities in your research, please cite it as follows:
 
-@misc{almeida2024babdlc,
-  author       = {De Almeida, Edo Walfrido},
-  title        = {{ball-and-beam-dlc}},
-  year         = {2026},
-  publisher    = {GitHub},
-  journal      = {GitHub repository},
-  url          = {https://github.com/EdoAlmeida/ball-and-beam-dlc}
+```
+@misc{almeida2024babdlc, 
+  author       = {De Almeida, Edo Walfrido}, 
+  title        = {{ball-and-beam-dlc}}, 
+  year         = {2026}, 
+  publisher    = {GitHub}, 
+  journal      = {GitHub repository}, 
+  url          = {https://github.com/EdoAlmeida/ball-and-beam-dlc} 
 }
-
+``` 
 ## License
 
 This repository is intended for academic and research purposes.
