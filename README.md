@@ -144,9 +144,21 @@ The notebooks provided in this repository contain the processed results and figu
 
 ## Author
 
-Edo Almeida  
+Edo Walfrido de Almeida  
 MSc Student in Control and Automation Engineering  
 Pontifical Catholic University of Paraná (PUCPR)
+
+## Citation
+If you use this dataset or the loading utilities in your research, please cite it as follows:
+
+@misc{almeida2024babdlc,
+  author       = {De Almeida, Edo Walfrido},
+  title        = {{ball-and-beam-dlc}},
+  year         = {2026},
+  publisher    = {GitHub},
+  journal      = {GitHub repository},
+  url          = {https://github.com/EdoAlmeida/ball-and-beam-dlc}
+}
 
 ## License
 
