@@ -153,7 +153,7 @@ If you use this dataset or the loading utilities in your research, please cite i
 
 ```
 @misc{almeida2024babdlc, 
-  author       = {De Almeida, Edo Walfrido}, 
+  author       = {de Almeida, Edo Walfrido}, 
   title        = {{ball-and-beam-dlc}}, 
   year         = {2026}, 
   publisher    = {GitHub}, 
